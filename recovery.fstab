@@ -68,3 +68,4 @@ auto                         vfat        /devices/platform/mt_usb*            fl
 /otp                         emmc        /dev/block/by-name/otp               flags=display=otp
 /vbmeta                      emmc        /dev/block/by-name/vbmeta            flags=display=vbmeta
 /vendor_boot    emmc    /dev/block/by-name/vendor_boot    flags=display=vendor_boot;slotselect
+/dev/input/event2  auto  auto  flags=display=Touchscreen;input=touchscreen
